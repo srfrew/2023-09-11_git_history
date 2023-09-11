@@ -1,6 +1,4 @@
-# Git History
-
-Stuff from MDS DSCI 521 Lecture 3
+# 2023-09-11 Git History & Conflicts
 
 - `add <filename>`: adding filenames to the staging area
 - `commit -m "MESSAGE"`: commit with message everything in the staging area 
@@ -17,6 +15,10 @@ Stuff from MDS DSCI 521 Lecture 3
     - `diff <FILENAME>`: shows diff for a specific file
 
 - `restore --staged <FILE>`: unstages <FILE> from the staging area
+
+- `revert <SHA1>`: creates a new commit that reverts changes in commit identified by SHA1
+
+- to fix conflicts, you need to manually edit the file
 
 - `.gitignore`: specifies files or patterns (regex) to be ignored by git
     - templates exist for each language that can be combined
