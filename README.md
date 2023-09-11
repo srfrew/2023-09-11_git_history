@@ -16,6 +16,8 @@
 
 - `restore --staged <FILE>`: unstages <FILE> from the staging area
 
+- `revert <SHA1>`: creates a new commit that reverts changes in commit identified by SHA1
+
 - `.gitignore`: specifies files or patterns (regex) to be ignored by git
     - templates exist for each language that can be combined
     - often good practice to ignore output from code
