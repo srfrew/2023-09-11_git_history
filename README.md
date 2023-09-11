@@ -10,4 +10,8 @@
     - if there are too many commits to show on the terminal, the terminal will show `:`, allowing you to scroll up and down but preventing further commands
         - press `q` to quit
 
+- `diff <FILENAME>`: shows the difference between your changes and the last known git state
+    - `diff --staged`: shows you the diff of the files in the staging area
+    - `diff <FILENAME>`: shows diff for a specific file
 
+- `restore --staged <FILE>`: unstages <FILE> from the staging area
