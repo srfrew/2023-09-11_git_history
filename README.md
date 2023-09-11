@@ -1,4 +1,6 @@
-# 2023-09-11_git_history
+# Git History
+
+Stuff from MDS DSCI 521 Lecture 3
 
 - `add <filename>`: adding filenames to the staging area
 - `commit -m "MESSAGE"`: commit with message everything in the staging area 
