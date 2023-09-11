@@ -19,5 +19,3 @@
 - `.gitignore`: specifies files or patterns (regex) to be ignored by git
     - templates exist for each language that can be combined
     - often good practice to ignore output from code
-
-Here's some information I don't want to be here
